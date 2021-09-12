@@ -1,0 +1,141 @@
+/* .container-fluid {
+    flex-direction: column;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@900&display=swap'); /*'Montserrat Alternates', sans-serif */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap'); /*font-family: 'PT Serif', serif; */
+/*@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap'); font-family: 'PT Serif', serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&display=swap'); /* font-family: 'Playfair Display SC', serif; Заголовки*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap'); /*font-family: 'Cormorant Garamond', serif;*/
+
+.carousel-caption, .brand {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.brand{
+    background-color: #62D1DF;
+}
+
+.brand-link{
+  color: white;
+  
+} 
+
+a[class='brand-link']:hover{
+  color: #536D70 !important;
+}
+
+.brand-desc {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link{
+  color: #536D70 !important;
+}
+
+a:hover {
+  color: black !important;
+}
+
+.nav, .footer{
+  font-family: 'PT Serif', serif;
+}
+
+.nav{
+  background-color: #FAFAFA;
+}
+
+.logo-left, .logo-right {
+  height: 10%;
+  width: 10%;
+}
+
+.logo-left{
+  margin-right: 2em;
+}
+
+.logo-right {
+  margin-left: 2em;
+}
+
+@media (max-width: 1040px) {
+  .logo-right, .logo-left {
+      display:none;
+  }
+}
+
+ .carousel {
+  background-image: url('./img/background.png');
+} 
+
+/* .carousel-item, .photo1, .photo2, .photo3{
+  height: 50% !important;
+  width: 50% !important;
+} */
+
+.photo1, .photo2, .photo3{
+  width: 65%;
+}
+
+@media (max-width: 1000px) {
+  .photo1, .photo2, .photo3{
+    width: 80%;
+  }
+}
+
+@media (max-width: 635px) {
+  .photo1, .photo2, .photo3{
+    width: 100%;
+  }
+}
+
+.description-title{
+  font-family: 'Playfair Display SC', serif;
+}
+
+.description-text{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.35em;
+}
+
+.description {
+  background-color: #FAFAFA;
+
+}
+
+.img-border-bottom, .img-border-top {
+  width: 40%;
+}
+
+.img-border-bottom{
+  transform: rotate(180deg);
+}
+
+.img-management{
+  border-radius: 50%;
+}
+
+#gmap_canvas{
+  min-width: 200px;
+}
+
+.ticket {
+  border-style: solid;
+  border-radius: 40px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+
+
+
+
+
